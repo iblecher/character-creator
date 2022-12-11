@@ -4,10 +4,12 @@
 }
 
 .maxWidthWrapper {
+
 }
 
 .header {
   padding-bottom: 64px;
+  width: 65%;
 }
 
 .title {
@@ -24,7 +26,12 @@
 }
 
 .characterWrapper {
+  max-height: 500px;
+  position: fixed;
+  inset: 96px 20% 0 auto;
+  z-index: 1;
 }
 
 .controlColumn {
+  width: 50%;
 }
